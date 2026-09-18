@@ -1,0 +1,22 @@
+[
+  { "especialidadId": "e1b2c3d4-0001-4000-8000-000000000001", "nombreEspecialidad": "Cardiología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0002-4000-8000-000000000002", "nombreEspecialidad": "Dermatología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0003-4000-8000-000000000003", "nombreEspecialidad": "Pediatría", "activa": true },
+  { "especialidadId": "e1b2c3d4-0004-4000-8000-000000000004", "nombreEspecialidad": "Ginecología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0005-4000-8000-000000000005", "nombreEspecialidad": "Traumatología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0006-4000-8000-000000000006", "nombreEspecialidad": "Oftalmología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0007-4000-8000-000000000007", "nombreEspecialidad": "Neurología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0008-4000-8000-000000000008", "nombreEspecialidad": "Psiquiatría", "activa": true },
+  { "especialidadId": "e1b2c3d4-0009-4000-8000-000000000009", "nombreEspecialidad": "Endocrinología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0010-4000-8000-000000000010", "nombreEspecialidad": "Gastroenterología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0011-4000-8000-000000000011", "nombreEspecialidad": "Neumonología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0012-4000-8000-000000000012", "nombreEspecialidad": "Otorrinolaringología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0013-4000-8000-000000000013", "nombreEspecialidad": "Urología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0014-4000-8000-000000000014", "nombreEspecialidad": "Nutrición", "activa": true },
+  { "especialidadId": "e1b2c3d4-0015-4000-8000-000000000015", "nombreEspecialidad": "Reumatología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0016-4000-8000-000000000016", "nombreEspecialidad": "Oncología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0017-4000-8000-000000000017", "nombreEspecialidad": "Nefrología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0018-4000-8000-000000000018", "nombreEspecialidad": "Infectología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0019-4000-8000-000000000019", "nombreEspecialidad": "Hematología", "activa": true },
+  { "especialidadId": "e1b2c3d4-0020-4000-8000-000000000020", "nombreEspecialidad": "Medicina General", "activa": true }
+]

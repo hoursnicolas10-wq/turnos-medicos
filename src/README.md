@@ -1,0 +1,1 @@
+Backend para la gestión de turnos de un centro de atención médica desarrollado con Node.js, Express y TypeScript.
