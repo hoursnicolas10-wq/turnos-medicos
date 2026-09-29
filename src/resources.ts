@@ -67,3 +67,8 @@ export async function cargarDatos(): Promise<void> {
     console.error('❌ Error al cargar los archivos JSON:', error);
   }
 }
+export type Especialidad = {
+    especialidadId: number,
+    nombreEspecialidad:string,
+    activa: boolean
+  }
