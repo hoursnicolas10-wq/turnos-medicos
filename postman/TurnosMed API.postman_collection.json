@@ -1,0 +1,271 @@
+{
+  "info": {
+    "_postman_id": "9fe225b9-58ef-4069-9596-39382afcfdb4",
+    "name": "TurnosMed API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58618223",
+    "_collection_link": "https://go.postman.co/collection/58618223-9fe225b9-58ef-4069-9596-39382afcfdb4?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Especialidades",
+      "item": [
+        {
+          "name": "Listado",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/especialidades",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "especialidades"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "ID inexistente",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/especialidades/99999999",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "especialidades",
+                "99999999"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "ID existente",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/especialidades/e1b2c3d4-0001-4000-8000-000000000001",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "especialidades",
+                "e1b2c3d4-0001-4000-8000-000000000001"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Crear una especialidad",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"nombreEspecialidad\": \"Medicina Deportiva\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/especialidades",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "especialidades"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Eliminar especialidad",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/especialidades/e1b2c3d4-0001-4000-8000-000000000001",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "especialidades",
+                "e1b2c3d4-0001-4000-8000-000000000001"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Profesionales",
+      "item": [
+        {
+          "name": "Obtener lista de prefesionales",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/profesionales",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "profesionales"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Buscar un profesional por ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/profesionales/m1a2b3c4-0001-4000-8000-000000000001",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "profesionales",
+                "m1a2b3c4-0001-4000-8000-000000000001"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Eliminar un profesional",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"nombre\": \"Juan Pérez\",\r\n    \"especialidad\": \"Dermatología\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/profesionales",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "profesionales"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Modificar un profesional",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"nombre\": \"Juan Pérez Actualizado\",\r\n    \"especialidad\": \"Dermatología\",\r\n    \"activo\": true\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/profesionales/m1a2b3c4-0003-4000-8000-000000000003",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "profesionales",
+                "m1a2b3c4-0003-4000-8000-000000000003"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Crear nuevo profesional",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"nombre\": \"Juan Pérez\",\r\n    \"especialidad\": \"Cardiología\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/profesionales",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "profesionales"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
